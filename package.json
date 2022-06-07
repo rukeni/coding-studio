@@ -1,0 +1,27 @@
+{
+  "name": "coding-studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rukeni/coding-studio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rukeni/coding-studio/issues"
+  },
+  "homepage": "https://github.com/rukeni/coding-studio#readme",
+  "devDependencies": {
+    "@swc/core": "^1.2.197",
+    "@swc/jest": "^0.2.21",
+    "eslint": "^8.17.0",
+    "jest": "^28.1.0",
+    "jest-plugin-context": "^2.9.0"
+  }
+}
