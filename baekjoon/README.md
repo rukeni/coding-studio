@@ -19,3 +19,15 @@ const input = fs.readFileSync('/dev/stdin').toString().split('\n');
 const fs = require('fs');
 const input = fs.readFileSync(0).toString().trim().split('\n');
 ```
+
+## 오래된 브라우저에서도 성능체크 하는법
+
+```js
+
+const start = new Date().getTime();
+
+const end = new Date().getTime();
+
+console.log(end - start);
+
+```
